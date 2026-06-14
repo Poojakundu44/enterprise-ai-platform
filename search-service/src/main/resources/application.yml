@@ -1,0 +1,16 @@
+﻿spring:
+  application:
+    name: search-service
+
+server:
+  port: ${SERVER_PORT:8085}
+
+platform:
+  clients:
+    embedding-base-url: ${EMBEDDING_SERVICE_URL:http://localhost:8084}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics

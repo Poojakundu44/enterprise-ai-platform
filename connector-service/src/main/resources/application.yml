@@ -1,0 +1,16 @@
+﻿spring:
+  application:
+    name: connector-service
+
+server:
+  port: ${SERVER_PORT:8082}
+
+platform:
+  clients:
+    ingestion-base-url: ${INGESTION_SERVICE_URL:http://localhost:8083}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics

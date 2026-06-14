@@ -1,0 +1,10 @@
+{
+  "name": "enterprise-ai-platform-ui",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Employee-facing UI for search, chat, and agent workflows",
+  "scripts": {
+    "dev": "echo \"Frontend scaffold — add React/Next.js here\"",
+    "build": "echo \"No build configured yet\""
+  }
+}
